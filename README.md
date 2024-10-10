@@ -1,8 +1,9 @@
 # SMS-Spam-Detector
-Overview
+# Overview
+
 The SMS Spam Detector is a machine learning project that utilizes Natural Language Processing (NLP) techniques to classify SMS messages as either spam or ham (non-spam). The project employs a Naive Bayes classifier, ensuring high accuracy in detecting unwanted messages.
 
-Features
+# Features
 
 High Accuracy: Achieves reliable classification of SMS messages using the Naive Bayes algorithm.
 
@@ -10,7 +11,7 @@ Text Preprocessing: Implements various NLP techniques, including tokenization, s
 
 User-Friendly Interface: Provides a simple way to input SMS messages for classification.
 
-Technologies Used
+# Technologies Used
 
 Python
 
