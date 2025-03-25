@@ -1,24 +1,57 @@
-# SMS-Spam-Detector
-# Overview
+# SMS Spam Detector
 
-The SMS Spam Detector is a machine learning project that utilizes Natural Language Processing (NLP) techniques to classify SMS messages as either spam or ham (non-spam). The project employs a Naive Bayes classifier, ensuring high accuracy in detecting unwanted messages.
+## Project Overview
+This project is an SMS Spam Detector that uses Natural Language Processing (NLP) and a Naive Bayes classifier to classify messages as spam or ham (not spam). The dataset is preprocessed, vectorized, and used to train the model for effective spam detection.
 
-# Features
+## Steps to Run the Project
 
-High Accuracy: Achieves reliable classification of SMS messages using the Naive Bayes algorithm.
+### 1. Clone the Repository
+First, clone this GitHub repository to your local system:
+```bash
+git clone https://github.com/SwetankShandilya/SMS-Spam-Detector.git
+cd SMS-Spam-Detector
+```
 
-Text Preprocessing: Implements various NLP techniques, including tokenization, stemming, and stop-word removal, to prepare data for analysis.
+### 2. Set Up the Virtual Environment (Optional but Recommended)
+It’s a good practice to create a virtual environment before installing dependencies:
+```bash
+# For Windows
+python -m venv env
+env\Scripts\activate
 
-User-Friendly Interface: Provides a simple way to input SMS messages for classification.
+# For macOS/Linux
+python3 -m venv env
+source env/bin/activate
+```
 
-# Technologies Used
+### 3. Install Dependencies
+Install all required Python packages using:
+```bash
+pip install -r requirements.txt
+```
 
-Python
+### 4. Launch Jupyter Notebook
+Run the Jupyter Notebook server:
+```bash
+jupyter notebook
+```
+Then, open **`SMS Spam Detector.ipynb`** in the Jupyter interface.
 
-NLTK
+### 5. Run the Notebook
+Execute all cells step by step to preprocess the dataset, train the model, and evaluate its performance.
 
-Scikit-learn
+### 6. Optional: Run on Google Colab
+If you prefer running the notebook online, upload it to [Google Colab](https://colab.research.google.com/), and install dependencies using:
+```python
+!pip install -r requirements.txt
+```
 
-Pandas
+## Dependencies
+All dependencies required for this project are listed in `requirements.txt`. Ensure you install them before running the notebook.
 
-Google Colab
+## Author
+Swetank Shandilya
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
